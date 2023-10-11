@@ -28,6 +28,17 @@ Under the `data` directory, you find the following data bundles:
 - PHM2010: `phm2010_bundle_high_resolution.csv` : ~25 Hz smoothed bundle of NUAA orthogonal experiments.
 - Uniwear: `uniwear.csv` : ~2 Hz aligned intersection of nuaa & phm2010.
 
+## Materials Summary 
+
+Datasets are produced with different workpiece and tool materials.
+Here, we summarize this in a table. 
+
+| Dataset       | Workpiece                 | Tool             |
+| :-------------| :-----------------------: | ---------------: |
+| PHM2010       |  Stainless steel (HRC52)  | Tungsten Carbide |
+| NUAA          |  Titanium (TC4)           | Solid Carbide    |
+
+
 ### NUAA
 
 The tool wear dataset comes from NUAA Ideahouse, released on
@@ -84,7 +95,7 @@ with the cutting tool being tungsten carbide. Release in [IEEE dataport](https:/
 - vibration_z
 - acoustic_emission_rms
 
-Dataset is distinguised with 'dataset_tag', here is 'phm2010'.
+Dataset is distinguished with 'dataset_tag', here is 'phm2010'.
 
 ### Uniwear
 
